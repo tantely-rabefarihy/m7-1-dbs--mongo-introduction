@@ -23,9 +23,9 @@ const options = {
 6. Declare a new variable called `users` and pass it the following code:
 
 ```js
-const data = await db.collection("users").find().toArray();
+const users = await db.collection("users").find().toArray();
 ```
 
 Take a few minutes to unpack this line. What is it doing? Add in a `console.log` of users to see what you get.
 
-Run the file in the terminal `node exercises exercise-1.2.js` to confirm that everything is working.
+Run the file in the terminal `node exercises/exercise-1.2.js` to confirm that everything is working.
